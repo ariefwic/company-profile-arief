@@ -1,0 +1,41 @@
+import Link from "next/link";
+import Image from "next/image";
+
+const Header = () => {
+    return (
+      // <header className="fixed min-w-full">
+        <nav className="py-2 px-4 max-w-7xl bg-white bg-opacity-10 flex justify-between items-center">
+          <div>
+          <Image src="/images/logo.jpg" alt="logo" width={40} height={40} className="h-10"/>
+          </div>
+          <ul className="flex list-none text-sm m-0 p-0">
+            <li className="mr-4">
+          <Link href="/home">
+            <div className="text-black hover:text-black cursor-pointer">Home</div>
+          </Link>
+          </li>
+          <li className="mr-4">
+          <Link href="/about">
+            <div className="text-black hover:text-black cursor-pointer">About Us</div>
+          </Link>
+          </li>
+          <li className="mr-4">
+          <Link href="/teams">
+            <div className="text-black hover:text-black cursor-pointer">Teams</div>
+          </Link>
+          </li>
+          <li className="mr-4">
+          <Link href="service">
+            <div className="text-black hover:text-black cursor-pointer">Service</div>
+          </Link>
+          </li>
+          </ul>
+          
+        </nav>
+
+      // </header>
+    );
+  };
+  
+  export default Header;
+  
