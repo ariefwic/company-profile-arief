@@ -7,7 +7,7 @@ const Header = () => {
         <nav className="py-2 px-4 max-w-7xl bg-white bg-opacity-10 flex justify-between items-center">
             <div>
                 <Link href="/">
-                  <Image src="/images/logo.jpg" alt="logo" width={40} height={40} className="h-10"/>
+                  <Image src="/logo.jpg" alt="logo" width={40} height={40} className="h-10"/>
                 </Link>
             </div>
             <ul className="flex list-none text-sm m-0 p-0">
