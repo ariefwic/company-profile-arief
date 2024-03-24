@@ -6,7 +6,7 @@ const AboutPages = () => {
     <div>
       <main className='bg-slate-600 pt-10'>
         <div className='flex justify-center h-40'>
-          <Image src="/images/probe.png" alt="ndt" width={400} height={400} />
+          <Image src="/probe.png" alt="ndt" width={400} height={400} />
         </div>
         <div className='justify-self-center bg-white'>
           <section className='grid grid-cols-1 gap-6 my-8 bg-slate-600 p-11'>
